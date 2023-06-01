@@ -120,8 +120,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Utilitários**
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
-- Estou utilizando o [Discloud](https://discloudbot.com/) como servidor para que meu bot sempre fique rodando.
-  - Para configurá-lo, basta seguir as instruções da [Documentação oficial da DisCloud ](https://docs.discloudbot.com/)
+- Estou utilizando o **[Discloud](https://discloudbot.com/)** como servidor para que meu bot sempre fique rodando.
+  - Para configurá-lo, basta seguir as instruções da **[Documentação oficial da DisCloud ](https://docs.discloudbot.com/)**
 ---
 
 ## 👨‍💻 Contribuidores
