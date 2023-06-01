@@ -17,7 +17,7 @@
 </p>
 
 <h1 align="center">
-    <img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" />
+    <img src="https://sm.ign.com/ign_me/screenshot/default/discord-logo_ycay.jpg" width="546" alt="discord.js" />
 </h1>
 
 <h4 align="center"> 
