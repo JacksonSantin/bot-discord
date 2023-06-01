@@ -84,6 +84,7 @@ A estrutura dos seus arquivos ficarão dessa forma:
 │   └── general
 │       ├── Ping.js
 │       └── sendMessage.js
+│       └── sendInformationMessage.js
 ├── handler
 │   └── index.js
 ├── bot.js
@@ -113,6 +114,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[discord.js](https://discord.js.org/)**
 - **[node-schedule](https://www.npmjs.com/package/node-schedule)**
+- **[node-cron](https://www.npmjs.com/package/node-cron)**
+- **[dayjs](https://day.js.org/)**
 
 > Veja o arquivo [package.json](https://github.com/JacksonSantin/bot-discord/blob/master/package.json)
 
@@ -143,7 +146,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/30778051?v=4" width="100px;" alt=""/><br /><sub><b>Jackson Dhanyel Santin</b></sub>
+<table>
+  <tr>
+    <td align="center"><a href="https://curriculo-vitae-web.web.app/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/30778051?v=4" width="100px;" alt=""/><br /><sub><b>Jackson Dhanyel Santin</b></sub></a></td>
+  </tr>
+</table>
 
 <a href="https://instagram.com/jackson_santin" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://twitter.com/dhanyeljack" target="_blank"><img src="https://img.shields.io/badge/Twitter-1d9bf0?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
