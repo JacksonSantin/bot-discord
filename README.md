@@ -109,7 +109,7 @@ $ npm bot.js
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Server** ([NodeJS](https://nodejs.org/en/)
+#### **Server** [NodeJS](https://nodejs.org/en/)
 
 - **[discord.js](https://discord.js.org/)**
 - **[node-schedule](https://www.npmjs.com/package/node-schedule)**
