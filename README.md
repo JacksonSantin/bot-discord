@@ -63,7 +63,7 @@ $ cd bot-discord
 $ code .
 
 ```
-
+---
 Após, você precisa criar na raíz do projeto um arquivo **config.json** e dentro dele informar o seguinte:
 ```bash
 {
@@ -71,10 +71,12 @@ Após, você precisa criar na raíz do projeto um arquivo **config.json** e dent
 }
 ```
 
+---
 Partindo do ponto que você já acessou o site [Discord Developer Portal](https://discord.com/developers/applications) e já tem criado o seu bot, você deve seguir esses passos da imagem para encontrar o token do seu servidor.
 <img src="https://i.imgur.com/zZ1ctsg.png" width="100%" alt="Onde está o token do servidor discord?" />
+<em>Essa imagem foi retirada do [Google Imagens](https://images.google.com/) do site [Imgur](https://i.imgur.com)</em>
 
-
+---
 A estrutura dos seus arquivos ficarão dessa forma:
 ```shell
 .
