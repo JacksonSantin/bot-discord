@@ -64,7 +64,7 @@ $ code .
 
 ```
 ---
-Após, você precisa criar na raíz do projeto um arquivo **config.json** e dentro dele informar o seguinte:
+Após, você precisa configurar o arquivo **config.json** colocando o token do seu servidor do Discord.
 ```bash
 {
   "token": "TOKEN_DO_SEU_SERVIDOR_AQUI"
@@ -84,10 +84,10 @@ A estrutura dos seus arquivos ficarão dessa forma:
 │   └── general
 │       ├── Ping.js
 │       └── sendMessage.js
-├── bot.js
-├── config.json
 ├── handler
 │   └── index.js
+├── bot.js
+├── config.json
 ├── package.json
 ```
 
