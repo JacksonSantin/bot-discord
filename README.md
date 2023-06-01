@@ -51,14 +51,46 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 #### 🎲 Rodando a aplicação
 
+Primeiramente siga esses passos abaixo.
 ```bash
-
 # Clone este repositório
 $ git clone git@github.com:JacksonSantin/bot-discord.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd bot-discord
 
+# Abra o arquivo com no visual studio code pelo terminal
+$ code .
+
+```
+
+Após, você precisa criar na raíz do projeto um arquivo **config.json** e dentro dele informar o seguinte:
+```bash
+{
+  "token": "TOKEN_DO_SEU_SERVIDOR_AQUI"
+}
+```
+
+Partindo do ponto que você já acessou o site [Discord Developer Portal](https://discord.com/developers/applications) e já tem criado o seu bot, você deve seguir esses passos da imagem para encontrar o token do seu servidor.
+<img src="https://i.imgur.com/zZ1ctsg.png" width="100%" alt="Onde está o token do servidor discord?" />
+
+
+A estrutura dos seus arquivos ficarão dessa forma:
+```shell
+.
+├── Comands
+│   └── general
+│       ├── Ping.js
+│       └── sendMessage.js
+├── bot.js
+├── config.json
+├── handler
+│   └── index.js
+├── package.json
+```
+
+Por fim, só rodar os comando abaixo.
+```bash
 # Instale as dependências
 $ npm i 
 # ou
