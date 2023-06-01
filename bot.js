@@ -1,52 +1,35 @@
-const { Client, REST, GatewayIntentBits, EmbedBuilder } = require('discord.js');
-const schedule = require("node-schedule");
+const Discord = require("discord.js");
+const config = require("./config.json")
+const client = new Discord.Client({ intents: ["Guilds", "GuildMembers", "MessageContent", "GuildMessages"] });
 
-const rest = new REST({ version: "10" }).setToken("NTg1MDkzOTI4MTc3NjMxMjM1.GPDGxu.qPGYvP4QV9LGuhUIWkjpPlZE0QHtM_sohS_wL4");
+module.exports = client
 
-const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.DirectMessages,
-  ],
-});
+client.on('interactionCreate', (interaction) => {
 
-client.on("ready", async () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  if (interaction.type === Discord.InteractionType.ApplicationCommand) {
 
-  schedule.scheduleJob("0 8 * * *", async function () {
-    const channelToSend = await client.channels
-      .fetch("1113553458931437720")
-      .catch(() => null);
-    const embed = new EmbedBuilder()
-      .setColor(0x2a3756)
-      .setTitle("Tomar Ancoron!")
-      .setDescription("AGORA!!!");
+    const cmd = client.slashCommands.get(interaction.commandName);
 
-    channelToSend.send({ embeds: [embed] });
-  });
+    if (!cmd) return interaction.reply(`Error`);
 
-  schedule.scheduleJob("0 12 * * *", async function () {
-    const channelToSend = await client.channels
-      .fetch("1113553458931437720")
-      .catch(() => null);
-    const embed = new EmbedBuilder()
-      .setColor(0x2a3756)
-      .setTitle("Tomar Somalgin e Ancoron!")
-      .setDescription("AGORA!!!");
+    interaction["member"] = interaction.guild.members.cache.get(interaction.user.id);
 
-    channelToSend.send({ embeds: [embed] });
-  });
+    cmd.run(client, interaction)
 
-  schedule.scheduleJob("0 18 * * *", async function () {
-    const channelToSend = await client.channels
-      .fetch("1113553458931437720")
-      .catch(() => null);
-    const embed = new EmbedBuilder()
-      .setColor(0x2a3756)
-      .setTitle("Tomar Somalgin e Ancoron!")
-      .setDescription("AGORA!!!");
-
-    channelToSend.send({ embeds: [embed] });
-  });
+  }
 })
+
+
+client.on("ready", () => {
+  console.log(`Estou online em ${client.user.username}`)
+
+  client.user.setActivity({
+    name: 'Lembrete',
+    type: Discord.ActivityType.Watching
+  })
+})
+
+client.slashCommands = new Discord.Collection()
+require("./handler")(client)
+
+client.login(config.token)
