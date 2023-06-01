@@ -7,7 +7,7 @@ module.exports = {
 
   run: async (client, interaction) => {
     let embed = new Discord.EmbedBuilder()
-      .setDescription(`Hello ${interaction.user}, ping = \`${client.ws.ping}\``)
+      .setDescription(`**\\📡 Olá ${interaction.user}, o ping do servidor Lembretes está em** \`${client.ws.ping}ms\`**.**`)
       .setColor(0x2a3756);
 
     interaction.reply({ embeds: [embed] });
