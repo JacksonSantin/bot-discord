@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.11.8",
     "discord.js": "^14.11.0",
     "fs": "^0.0.1-security",
+    "node-cron": "^3.0.2",
     "node-schedule": "^2.1.1"
   }
 }
