@@ -17,7 +17,8 @@ async function sendMessage(time, activity) {
 
   if (channelToSend) {
     const embed = new Discord.EmbedBuilder()
-      .setDescription(`Olá, são ${time}, hora de tomar o ${activity}`)
+      .setTitle(`**⚠️ Hora do remédio!**`)
+      .setDescription(`**📢 Olá, são ${time}, hora de tomar o ${activity}**`)
       .setColor(0x2a3756);
 
     channelToSend.send({ embeds: [embed] });
