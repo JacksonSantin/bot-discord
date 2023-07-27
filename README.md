@@ -11,7 +11,7 @@
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%238257E5">
    
-  <a href="https://curriculo-vitae-web.web.app/">
+  <a href="https://curriculum-vitae-jacksonsantin.vercel.app">
     <img alt="Feito por Douglas" src="https://img.shields.io/badge/feito%20por-Jackson Dhanyel santin-%238257E5">
   </a>
 </p>
@@ -148,7 +148,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><a href="https://curriculo-vitae-web.web.app/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/30778051?v=4" width="100px;" alt=""/><br /><sub><b>Jackson Dhanyel Santin</b></sub></a></td>
+    <td align="center"><a href="https://curriculum-vitae-jacksonsantin.vercel.app"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/30778051?v=4" width="100px;" alt=""/><br /><sub><b>Jackson Dhanyel Santin</b></sub></a></td>
   </tr>
 </table>
 
@@ -165,6 +165,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](https://github.com/JacksonSantin/bot-discord/blob/master/LICENSE).
 
-Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://curriculo-vitae-web.web.app)
+Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://curriculum-vitae-jacksonsantin.vercel.app/contato)
 
 ---
