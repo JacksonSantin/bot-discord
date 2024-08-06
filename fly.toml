@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for bot-discord-wandering-sun-3360 on 2024-08-06T14:16:58-03:00
+# fly.toml app configuration file generated for bot-discord-snowy-tree-4616 on 2024-08-06T16:12:13-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'bot-discord-wandering-sun-3360'
+app = 'bot-discord-snowy-tree-4616'
 primary_region = 'gru'
 
 [build]
@@ -11,7 +11,6 @@ primary_region = 'gru'
 [http_service]
   internal_port = 3000
   force_https = true
-  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
   processes = ['app']
