@@ -1,19 +1,24 @@
 {
   "name": "bot-discord",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot criado para gerar alertas avisando sobre algum compromisso.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bot",
+    "discord",
+    "node-schedule",
+    "alerta"
+  ],
+  "author": "Jackson Dhanyel Santin",
+  "license": "MIT",
   "dependencies": {
-    "dayjs": "^1.11.8",
-    "discord.js": "^14.11.0",
+    "dayjs": "^1.11.12",
+    "discord.js": "^14.15.3",
     "fs": "^0.0.1-security",
-    "node-cron": "^3.0.2",
+    "node-cron": "^3.0.3",
     "node-schedule": "^2.1.1"
   }
 }

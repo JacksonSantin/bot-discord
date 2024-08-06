@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const schedule = require("node-schedule");
-const client = require("../../bot")
+const client = require("../../index")
 
 const jobOne = schedule.scheduleJob("0 8 * * *", () => {
   sendMessage("8:00", "Ancoron");
