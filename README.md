@@ -73,8 +73,7 @@ Após, você precisa configurar o arquivo **config.json** colocando o token do s
 
 ---
 Partindo do ponto que você já acessou o site [Discord Developer Portal](https://discord.com/developers/applications) e já tem criado o seu bot, você deve seguir esses passos da imagem para encontrar o token do seu servidor.
-<img src="https://i.imgur.com/zZ1ctsg.png" width="100%" alt="Onde está o token do servidor discord?" />
-<em>Essa imagem foi retirada do [Google Imagens](https://images.google.com/) do site [Imgur](https://i.imgur.com)</em>
+![image](https://github.com/user-attachments/assets/11a86f87-1af4-4d3b-bf08-daacdcc91f71)
 
 ---
 A estrutura dos seus arquivos ficarão dessa forma:
@@ -157,7 +156,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://fb.com/jackson.santin.52" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a> 
 <a href = "mailto:jackdhanyelsn@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jackson-dhanyel-santin" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-<a href="https://curriculum-vitae-jacksonsantin.vercel.app" target="_blank"><img src="https://img.shields.io/badge/-JDS SISTEMAS-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
+<a href="https://about-me-jacksonsantin.vercel.app" target="_blank"><img src="https://img.shields.io/badge/-About Me-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
 
 ---
 
@@ -165,6 +164,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](https://github.com/JacksonSantin/bot-discord/blob/master/LICENSE).
 
-Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://curriculum-vitae-jacksonsantin.vercel.app/contato)
+Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://about-me-jacksonsantin.vercel.app)
 
 ---
