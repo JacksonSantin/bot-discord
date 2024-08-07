@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for bot-discord-snowy-tree-4616 on 2024-08-06T16:12:13-03:00
+# fly.toml app configuration file generated for bot-discord-red-resonance-8984 on 2024-08-07T11:02:23-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'bot-discord-snowy-tree-4616'
+app = 'bot-discord-red-resonance-8984'
 primary_region = 'gru'
 
 [build]
