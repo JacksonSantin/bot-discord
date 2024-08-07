@@ -11,8 +11,8 @@
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%238257E5">
    
-  <a href="https://curriculum-vitae-jacksonsantin.vercel.app">
-    <img alt="Feito por Douglas" src="https://img.shields.io/badge/feito%20por-Jackson Dhanyel santin-%238257E5">
+  <a href="https://about-me-jacksonsantin.vercel.app">
+    <img alt="Feito por Jackson" src="https://img.shields.io/badge/feito%20por-Jackson Dhanyel santin-%238257E5">
   </a>
 </p>
 
