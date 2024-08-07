@@ -1,12 +1,21 @@
 const Discord = require("discord.js");
 const schedule = require("node-schedule");
-const client = require("../../index")
+const client = require("../../index");
+const rule01 = new schedule.RecurrenceRule();
+rule01.hour = 8;
+rule01.minute = 0;
+rule01.tz = "America/Sao_Paulo"
 
-const jobOne = schedule.scheduleJob("0 8 * * *", () => {
+const rule02 = new schedule.RecurrenceRule();
+rule02.hour = 12;
+rule02.minute = 0;
+rule02.tz = "America/Sao_Paulo"
+
+const jobOne = schedule.scheduleJob(rule01, () => {
   sendMessage("8:00", "Ancoron");
 });
 
-const jobTwo = schedule.scheduleJob("0 12 * * *", () => {
+const jobTwo = schedule.scheduleJob(rule02, () => {
   sendMessage("12:00", "Somalgin e Atenolol");
 });
 
